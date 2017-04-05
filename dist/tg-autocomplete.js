@@ -3,7 +3,7 @@
  VERSION: 0.0.1 
  AUTHOR: Ruther John Guevarra 
  GITHUB: https://github.com/terguevarra/
- LATEST BUILD DATE AND TIME: January 11, 2017 10:57 AM PHILIPPINE TIME*/
+ LATEST BUILD DATE AND TIME: April 05, 2017 04:57 PM PHILIPPINE TIME*/
 (function(){
     'use strict';
 
@@ -63,7 +63,7 @@
                     },
                     change: function(event, selectedItem){
                         event.preventDefault();
-                        if(angular.isDefined(scope.tgChange)){
+                        if(angular.isDefined(scope.tgOnChange)){
                             if(angular.isFunction(scope.tgOnChange)){
                                 scope.tgOnChange(selectedItem.item, scope.secondParameter);
                             }

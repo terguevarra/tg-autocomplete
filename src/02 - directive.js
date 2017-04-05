@@ -48,7 +48,7 @@
                     },
                     change: function(event, selectedItem){
                         event.preventDefault();
-                        if(angular.isDefined(scope.tgChange)){
+                        if(angular.isDefined(scope.tgOnChange)){
                             if(angular.isFunction(scope.tgOnChange)){
                                 scope.tgOnChange(selectedItem.item, scope.secondParameter);
                             }
