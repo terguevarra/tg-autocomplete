@@ -14,7 +14,7 @@
             }
         },
         clean: {
-            source: ['dist/*.js']
+            source: ['dist/<%= pkg.version %>/*.js']
         },
         concat: {
             source: {
@@ -22,7 +22,7 @@
                     banner: '<%= banner %>',
                 },
                 src: ['src/**/*.js'],
-                dest: 'dist/<%= pkg.filename %>.js'
+                dest: 'dist/<%= pkg.version %>/<%= pkg.filename %>.js'
             }
         },
         uglify: {
@@ -34,7 +34,7 @@
                     }
                 },
                 files: {
-                    'dist/<%= pkg.filename %>.min.js': ['dist/<%= pkg.filename %>.js']
+                    'dist/<%= pkg.version %>/<%= pkg.filename %>.min.js': ['dist/<%= pkg.version %>/<%= pkg.filename %>.js']
                 }
             }
         }

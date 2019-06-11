@@ -3,7 +3,7 @@
  VERSION: 0.0.1 
  AUTHOR: Ruther John Guevarra 
  GITHUB: https://github.com/terguevarra/
- LATEST BUILD DATE AND TIME: April 05, 2017 04:57 PM PHILIPPINE TIME*/
+ LATEST BUILD DATE AND TIME: June 11, 2019 04:45 PM PHILIPPINE TIME*/
 (function(){
     'use strict';
 
