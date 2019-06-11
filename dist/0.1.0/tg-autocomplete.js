@@ -1,3 +1,18 @@
+/*! 
+ PROJECT: tg-autocomplete 
+ VERSION: 0.1.0 
+ AUTHOR: Ruther John Guevarra 
+ GITHUB: https://github.com/terguevarra/
+ LATEST BUILD DATE AND TIME: June 11, 2019 04:57 PM PHILIPPINE TIME*/
+(function(){
+    'use strict';
+
+    var moduleName = 'tgComponentsAutocomplete';
+
+    var appDependencies = [];
+
+    angular.module(moduleName, appDependencies);
+})();
 (function(){
     'use strict';
 
